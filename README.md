@@ -1,5 +1,5 @@
 # Description
-This cookbook is designed to setup my mac.
+This cookbook is designed to setup my mac by using [library/application cookbook pattern](http://devopsanywhere.blogspot.jp/2012/11/how-to-write-reusable-chef-cookbooks.html).
 
 Currently supported:
 
@@ -19,7 +19,7 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 # Attributes
 
-* nothing
+* `node["iterm2"]["plist_cookbook"]` - cookbook where the plist file is located
 
 # Recipes
 ## mac::default
