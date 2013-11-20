@@ -24,3 +24,9 @@ dmg_package "Google Chrome" do
   source "https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg"
   action :install
 end
+
+dmg_package "GoogleJapaneseInput" do
+  source "https://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg"
+  type "pkg"
+  action :install
+end
