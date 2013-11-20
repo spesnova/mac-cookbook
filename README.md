@@ -4,6 +4,7 @@ This cookbook is designed to setup my mac by using [library/application cookbook
 Currently supported:
 
 * Install and configure iTerm2
+* Install Google Chrome
 
 # Requirements
 ## Platform
@@ -26,6 +27,7 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 * Install iTerm2
 * Configure iTerm2 (manage `com.googlecode.iterm2.plist`)
+* Install Google Chrome
 
 # Author
 
