@@ -8,6 +8,8 @@ Currently supported:
 * Install Google Chrome
 * Install Google Japanese Input
 * Install Better Touch Tool
+* Install bash-completion
+* Install vim
 
 # Requirements
 ## Platform
@@ -53,7 +55,11 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 ## mac::bash-completion
 
-* Install bash-completion
+* Install bash-completion via homebrew
+
+## mac::vim
+
+* Install vim via homebrew
 
 # Author
 
