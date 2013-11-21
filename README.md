@@ -10,11 +10,18 @@ Currently supported:
 # Requirements
 ## Platform
 
-* Mac OS X (Tested on 10.7.5)
+* Mac OS X
+
+Tested on
+
+* 10.7.5
+* 10.8.4
 
 ## Cookbooks
 
 * [iTerm2](https://github.com/jtimberman/iterm2-cookbook.git)
+* [Homebrew](https://github.com/mxcl/homebrew)
+* [max os x](https://github.com/jtimberman/mac_os_x-cookbook)
 
 # Usage
 Include the recipe on your node or role for your mac. Modify the `files/default/*` files to customize each apps.
@@ -28,7 +35,13 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 * Install iTerm2
 * Configure iTerm2 (manage `com.googlecode.iterm2.plist`)
+
+## mac::chrome
+
 * Install Google Chrome
+
+## mac::google_japanese_input
+
 * Install Google Japanese Input
 
 # Author

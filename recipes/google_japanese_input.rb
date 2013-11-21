@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: mac
-# Recipe:: default
+# Recipe:: google_japanese_input
 #
 # Copyright (C) 2013 Seigo Uchida
 # 
@@ -17,4 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe "iterm2"
+dmg_package "GoogleJapaneseInput" do
+  source "https://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg"
+  type "pkg"
+  action :install
+end

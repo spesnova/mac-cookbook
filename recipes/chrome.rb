@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: mac
-# Recipe:: default
+# Recipe:: chrome
 #
 # Copyright (C) 2013 Seigo Uchida
 # 
@@ -17,4 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe "iterm2"
+dmg_package "Google Chrome" do
+  dmg_name "googlechrome"
+  source "https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg"
+  action :install
+end
