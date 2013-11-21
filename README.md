@@ -10,6 +10,7 @@ Currently supported:
 * Install Better Touch Tool
 * Install bash-completion
 * Install vim
+* Install git
 
 # Requirements
 ## Platform
@@ -52,6 +53,10 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 ## mac::bettertouchtool
 
 * Install Better Touch Tool
+
+## mac::git
+
+* Install git via homebrew
 
 ## mac::bash-completion
 
