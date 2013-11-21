@@ -4,6 +4,7 @@ This cookbook is designed to setup my mac by using [library/application cookbook
 Currently supported:
 
 * Install and configure iTerm2
+* Install Homebrew
 * Install Google Chrome
 * Install Google Japanese Input
 
