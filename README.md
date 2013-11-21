@@ -51,6 +51,10 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 * Install Better Touch Tool
 
+## mac::bash-completion
+
+* Install bash-completion
+
 # Author
 
 Author:: Seigo Uchida (<spesnova@gmail.com>)
