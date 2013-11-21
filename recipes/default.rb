@@ -18,3 +18,4 @@
 #
 
 include_recipe "iterm2"
+include_recipe "homebrew"
