@@ -18,4 +18,8 @@
 # limitations under the License.
 #
 
+# iTerm2
 override["iterm2"]["plist_cookbook"] = "mac"
+
+# Better Touch Tool
+default["mac"]["bettertouchtool_download_uri"] = "http://boastr.net/releases/BetterTouchTool.zip"

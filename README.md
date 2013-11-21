@@ -7,6 +7,7 @@ Currently supported:
 * Install Homebrew
 * Install Google Chrome
 * Install Google Japanese Input
+* Install Better Touch Tool
 
 # Requirements
 ## Platform
@@ -30,6 +31,7 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 # Attributes
 
 * `node["iterm2"]["plist_cookbook"]` - cookbook where the plist file is located
+* `node["mac"]["bettertouchtool_download_uri"]`
 
 # Recipes
 ## mac::default
@@ -44,6 +46,10 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 ## mac::google_japanese_input
 
 * Install Google Japanese Input
+
+## mac::bettertouchtool
+
+* Install Better Touch Tool
 
 # Author
 
