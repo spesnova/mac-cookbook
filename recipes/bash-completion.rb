@@ -17,4 +17,4 @@
 # limitations under the License.
 #
 
-homebrew_package "bash-completion"
+package "bash-completion"
