@@ -11,6 +11,7 @@ Currently supported:
 * Install bash-completion
 * Install vim
 * Install git
+* Install rbenv & ruby-build
 
 # Requirements
 ## Platform
@@ -65,6 +66,12 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 ## mac::vim
 
 * Install vim via homebrew
+
+## mac::rbenv
+
+* Install rbenv and ruby-build via homebrew
+
+(also openssl and readline will be installed)
 
 # Author
 
