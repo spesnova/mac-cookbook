@@ -22,4 +22,20 @@
 override["iterm2"]["plist_cookbook"] = "mac"
 
 # Better Touch Tool
-default["mac"]["bettertouchtool_download_uri"] = "http://boastr.net/releases/BetterTouchTool.zip"
+default["mac"]["bettertouchtool"]["download_uri"] = "http://boastr.net/releases/BetterTouchTool.zip"
+
+# rbenv
+default["rbenv"]["create_profiled"] = false
+default["rbenv"]["root_path"] = File.join(ENV["HOME"], ".rbenv")
+default["rbenv"]["user_installs"] = [
+  {
+    "user"   => node["current_user"],
+    "rubies" => ["2.0.0-p247"],
+    "global" => "2.0.0-p247",
+    "gems"   => {
+      "2.0.0-p247" => [
+        { "name"   => "bundler" }
+      ]
+    }
+  }
+]

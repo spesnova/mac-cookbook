@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: mac
-# Recipe:: bettertouchtool
+# Recipe:: ruby
 #
 # Copyright (C) 2013 Seigo Uchida
 # 
@@ -17,14 +17,14 @@
 # limitations under the License.
 #
 
-remote_file "#{Chef::Config[:file_cache_path]}/BetterTouchTool.zip" do
-  source node["mac"]["bettertouchtool"]["download_uri"]
-  action :create_if_missing
-end
-
-execute "unzip BetterTouchTool to /Applications" do
-  command "unzip -o #{Chef::Config[:file_cache_path]}/BetterTouchTool.zip -x __MACOSX*"
-  cwd "/Applications"
-  not_if { File.directory?("/Applications/BetterTouchTool.app") }
-  group "wheel"
-end
+include_recipe "rbenv::user"
+#rbenv_ruby "2.0.0-p247" do
+#  user node["current_user"]
+#  root_path node["mac"]["rbenv"]["root_path"]
+#  action :install
+#end
+#
+#rbenv_global "2.0.0-p247" do
+#  user node["current_user"]
+#  root_path node["mac"]["rbenv"]["root_path"]
+#end

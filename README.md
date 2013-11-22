@@ -73,6 +73,21 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 (also openssl and readline will be installed)
 
+## mac::ruby
+
+* Install ruby via ruby_build and rbenv
+
+When you use this, add `ruby_build` recipe too.
+
+Ex.
+
+```json
+  ...
+  "recipe[ruby_build"]
+  "recipe[mac::ruby"]
+  ...
+``
+
 # Author
 
 Author:: Seigo Uchida (<spesnova@gmail.com>)
