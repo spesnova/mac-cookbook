@@ -23,3 +23,6 @@ override["iterm2"]["plist_cookbook"] = "mac"
 
 # Better Touch Tool
 default["mac"]["bettertouchtool_download_uri"] = "http://boastr.net/releases/BetterTouchTool.zip"
+
+# Google Japanese Input
+default["mac"]["google_japanese_input_checksum"] = "174f0b831ead4955e2fef06fe401e065f3074b60640cd5f34a80b148b1b45ad1"
