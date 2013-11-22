@@ -20,6 +20,6 @@
 dmg_package "GoogleJapaneseInput" do
   source "https://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg"
   type "pkg"
-  checksum node["mac"]["google_japanese_input_checksum"]
+  package_id "com.google.pkg.GoogleJapaneseInput"
   action :install
 end
