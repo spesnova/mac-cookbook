@@ -8,6 +8,7 @@ Currently supported:
 * Install Google Chrome
 * Install Google Japanese Input
 * Install Better Touch Tool
+* Install HipChat
 * Install bash-completion
 * Install vim
 * Install git
@@ -55,6 +56,10 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 ## mac::bettertouchtool
 
 * Install Better Touch Tool
+
+## mac::hipchat
+
+* Install HipChat
 
 ## mac::git
 
