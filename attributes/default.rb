@@ -24,6 +24,10 @@ override["iterm2"]["plist_cookbook"] = "mac"
 # Better Touch Tool
 default["mac"]["bettertouchtool"]["download_uri"] = "http://boastr.net/releases/BetterTouchTool.zip"
 
+# HipChat
+default["mac"]["hipchat"]["version"] = "2.3"
+default["mac"]["hipchat"]["download_uri"] = "http://downloads.hipchat.com.s3.amazonaws.com/osx/HipChat-#{node['mac']['hipchat']['version']}.zip"
+
 # rbenv
 default["rbenv"]["create_profiled"] = false
 default["rbenv"]["root_path"] = File.join(ENV["HOME"], ".rbenv")
