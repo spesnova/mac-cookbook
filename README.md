@@ -12,6 +12,7 @@ Currently supported:
 * Install vim
 * Install git
 * Install rbenv & ruby-build
+* Install and configre rubies and rubygems
 
 # Requirements
 ## Platform
@@ -86,7 +87,7 @@ Ex.
   "recipe[ruby_build"]
   "recipe[mac::ruby"]
   ...
-``
+```
 
 # Author
 
