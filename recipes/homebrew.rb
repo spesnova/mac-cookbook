@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: mac
-# Recipe:: default
+# Recipe:: homebrew
 #
 # Copyright (C) 2013 Seigo Uchida
 # 
@@ -16,3 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+include_recipe "homebrew"
