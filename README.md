@@ -16,6 +16,7 @@ Currently supported:
 * Install git
 * Install rbenv & ruby-build
 * Install and configre rubies and rubygems
+* Install Heroku toolbelt
 
 # Requirements
 ## Platform
@@ -103,6 +104,10 @@ Ex.
   "recipe[mac::ruby"]
   ...
 ```
+
+## mac::heroku
+
+* Install Heroku toolbelt
 
 # Author
 
