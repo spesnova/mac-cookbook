@@ -16,6 +16,7 @@ Currently supported:
 * Install git
 * Install rbenv & ruby-build
 * Install and configre rubies and rubygems
+* Install hub
 
 # Requirements
 ## Platform
@@ -71,6 +72,10 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 * Install Kobito
 
+## mac::1password
+
+* Install [1Password](https://agilebits.com/onepassword)
+
 ## mac::git
 
 * Install git via homebrew
@@ -103,6 +108,10 @@ Ex.
   "recipe[mac::ruby"]
   ...
 ```
+
+## mac::hub
+
+* Install [hub](https://github.com/github/hub)
 
 # Author
 
