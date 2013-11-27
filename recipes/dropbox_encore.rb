@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: mac
-# Recipe:: 1password
+# Recipe:: dropbox_encore
 #
 # Copyright (C) 2013 Seigo Uchida
 # 
@@ -17,19 +17,11 @@
 # limitations under the License.
 #
 
-# Example version "4.0.9"
-version = node["mac"]["1password"]["version"]
-# Example short version "4"
-short_version = version.scan(/^([0-9])\.[0-9]\.[0-9]/).first.first
+version = node["mac"]["dropbox_encore"]["version"]
 
-remote_file "#{Chef::Config[:file_cache_path]}/1Password-#{version}.zip" do
-  source node["mac"]["1password"]["download_uri"]
-  action :create_if_missing
-end
-
-execute "unzip 1Password to /Applications" do
-  command "unzip -o #{Chef::Config[:file_cache_path]}/1Password-#{version}.zip"
-  cwd "/Applications"
-  not_if { File.directory?("/Applications/1Password #{short_version}.app") }
-  group "wheel"
+dmg_package "Dropbox Encore" do
+  volumes_dir "Dropbox Encore #{version}"
+  source node["mac"]["dropbox_encore"]["download_uri"]
+  owner "root"
+  action :install
 end

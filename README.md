@@ -10,6 +10,7 @@ Currently supported:
 * Install Better Touch Tool
 * Install HipChat
 * Install Dropbox
+* Install Dropbox Encore
 * Install Kobito
 * Install bash-completion
 * Install vim
@@ -67,6 +68,10 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 ## mac::dropbox
 
 * Install Dropbox
+
+## mac::dropbox_encore
+
+* Install [Dropbox Encore](http://www.joyofmacs.com/software/dropboxencore/)
 
 ## mac::kobito
 
