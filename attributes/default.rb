@@ -28,6 +28,11 @@ default["mac"]["bettertouchtool"]["download_uri"] = "http://boastr.net/releases/
 default["mac"]["hipchat"]["version"] = "2.3"
 default["mac"]["hipchat"]["download_uri"] = "http://downloads.hipchat.com.s3.amazonaws.com/osx/HipChat-#{node['mac']['hipchat']['version']}.zip"
 
+# 1Password
+default["mac"]["1password"]["version"] = "4.0.9"
+default["mac"]["1password"]["download_uri"] = "https://d13itkw33a7sus.cloudfront.net/dist/1P/mac4/1Password-#{node['mac']['1password']['version']}.zip"
+
+
 # Kobito
 default["mac"]["kobito"]["version"] = "1.8.4"
 default["mac"]["kobito"]["download_uri"] = "http://kobito.qiita.com/download/Kobito_v#{node['mac']['kobito']['version']}.zip"
