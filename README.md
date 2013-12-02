@@ -10,6 +10,7 @@ Currently supported:
 * Install Better Touch Tool
 * Install HipChat
 * Install Dropbox
+* Install Dropbox Encore
 * Install Kobito
 * Install bash-completion
 * Install vim
@@ -17,6 +18,8 @@ Currently supported:
 * Install rbenv & ruby-build
 * Install and configre rubies and rubygems
 * Install Heroku toolbelt
+* Install hub
+* Install cyberduck
 
 # Requirements
 ## Platform
@@ -68,9 +71,17 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 
 * Install Dropbox
 
+## mac::dropbox_encore
+
+* Install [Dropbox Encore](http://www.joyofmacs.com/software/dropboxencore/)
+
 ## mac::kobito
 
 * Install Kobito
+
+## mac::1password
+
+* Install [1Password](https://agilebits.com/onepassword)
 
 ## mac::git
 
@@ -108,6 +119,14 @@ Ex.
 ## mac::heroku
 
 * Install Heroku toolbelt
+
+## mac::hub
+
+* Install [hub](https://github.com/github/hub)
+
+## mac:cyberduck
+
+* Install [cyberduck](http://cyberduck.io/)
 
 # Author
 
