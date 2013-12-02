@@ -18,6 +18,7 @@ Currently supported:
 * Install rbenv & ruby-build
 * Install and configre rubies and rubygems
 * Install hub
+* Install cyberduck
 
 # Requirements
 ## Platform
@@ -117,6 +118,10 @@ Ex.
 ## mac::hub
 
 * Install [hub](https://github.com/github/hub)
+
+## mac:cyberduck
+
+* Install [cyberduck](http://cyberduck.io/)
 
 # Author
 

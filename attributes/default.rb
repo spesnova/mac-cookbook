@@ -40,6 +40,10 @@ default["mac"]["kobito"]["download_uri"] = "http://kobito.qiita.com/download/Kob
 default["mac"]["dropbox_encore"]["version"] = "1.0"
 default["mac"]["dropbox_encore"]["download_uri"] = "http://www.joyofmacs.com/downloads/DropboxEncore#{node['mac']['dropbox_encore']['version']}.dmg"
 
+# Cyberduck
+default["mac"]["cyberduck"]["version"] = "4.4.3"
+default["mac"]["cyberduck"]["download_uri"] = "https://update.cyberduck.io/Cyberduck-#{node['mac']['cyberduck']['version']}.zip"
+
 # rbenv
 default["rbenv"]["create_profiled"] = false
 default["rbenv"]["root_path"] = File.join(ENV["HOME"], ".rbenv")
