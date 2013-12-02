@@ -17,8 +17,4 @@
 # limitations under the License.
 #
 
-dmg_package "heroku-toolbelt" do
-  source "https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg"
-  type "pkg"
-  package_id "com.heroku.toolbelt"
-end
+package "heroku-toolbelt"
