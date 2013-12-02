@@ -43,5 +43,5 @@ template "#{ENV['HOME']}/.aws/config" do
   mode "0600"
   owner node["current_user"]
   group "staff"
+  action :create_if_missing
 end
-
