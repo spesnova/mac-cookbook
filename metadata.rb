@@ -7,6 +7,6 @@ long_description IO.read(File.join(File.dirname(__FILE__), "README.md"))
 version          "0.1.9"
 supports         "mac_os_x"
 
-%w{ iterm2 dmg homebrew rbenv ruby_build }.each do |cb|
+%w{ iterm2 dmg homebrew rbenv ruby_build python }.each do |cb|
   depends cb
 end

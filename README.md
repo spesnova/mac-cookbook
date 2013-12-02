@@ -20,6 +20,7 @@ Currently supported:
 * Install Heroku toolbelt
 * Install hub
 * Install cyberduck
+* Install AWS CLI
 
 # Requirements
 ## Platform
@@ -49,7 +50,6 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 ## mac::default
 
 * Install iTerm2
-* Configure iTerm2 (manage `com.googlecode.iterm2.plist`)
 
 ## mac::chrome
 
@@ -127,6 +127,10 @@ Ex.
 ## mac:cyberduck
 
 * Install [cyberduck](http://cyberduck.io/)
+
+## mac::aws_cli
+
+* Install AWS CLI
 
 # Author
 
