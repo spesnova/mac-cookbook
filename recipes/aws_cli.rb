@@ -20,13 +20,13 @@
 package "python"
 
 python_pip "awscli" do
-  notifies :run, "execute[Enable tab completion for bash]", :immediately
+  notifies :run, "bash[Enable tab completion for bash]", :immediately
   action :install
 end
 
 # TODO(spesnova) Support zsh
 # https://github.com/aws/aws-cli#command-completion
-execute "Enable tab completion for bash" do
-  command "complete -C aws_completer aws"
+bash "Enable tab completion for bash" do
+  code "complete -C aws_completer aws"
   action :nothing
 end
