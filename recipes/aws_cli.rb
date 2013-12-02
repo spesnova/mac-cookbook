@@ -30,3 +30,18 @@ bash "Enable tab completion for bash" do
   code "complete -C aws_completer aws"
   action :nothing
 end
+
+directory "#{ENV['HOME']}/.aws" do
+  mode "0755"
+  owner node["current_user"]
+  group "staff"
+  action :create
+end
+
+template "#{ENV['HOME']}/.aws/config" do
+  source "aws_config"
+  mode "0600"
+  owner node["current_user"]
+  group "staff"
+end
+
