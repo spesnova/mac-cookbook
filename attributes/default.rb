@@ -44,6 +44,9 @@ default["mac"]["dropbox_encore"]["download_uri"] = "http://www.joyofmacs.com/dow
 default["mac"]["cyberduck"]["version"] = "4.4.3"
 default["mac"]["cyberduck"]["download_uri"] = "https://update.cyberduck.io/Cyberduck-#{node['mac']['cyberduck']['version']}.zip"
 
+# Homebrew
+default["mac"]["homebrew"]["formulas"] = []
+
 # rbenv
 default["rbenv"]["create_profiled"] = false
 default["rbenv"]["root_path"] = File.join(ENV["HOME"], ".rbenv")

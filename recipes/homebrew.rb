@@ -18,3 +18,7 @@
 #
 
 include_recipe "homebrew"
+
+node["mac"]["homebrew"]["formulas"].each do |f|
+  package f 
+end

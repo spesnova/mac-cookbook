@@ -49,6 +49,35 @@ Include the recipe on your node or role for your mac. Modify the `files/default/
 # Recipes
 ## mac::default
 
+* nothing
+
+## mac::homebrew
+
+* Install homebrew
+* Install formulas
+
+Specify formulas to install in roles file.
+
+```ruby
+# Example
+name "personal"
+description "Run list for personal"
+run_list(
+  "recipe[homebrew]"
+)
+override_attributes({
+  "mac" => {
+    "homebrew" => {
+      "formulas" => [
+        "jq"
+      ]
+    }
+  }
+})
+```
+
+## mac::iterm2
+
 * Install iTerm2
 
 ## mac::chrome
