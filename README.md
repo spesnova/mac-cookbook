@@ -22,6 +22,7 @@ Currently supported:
 * Install cyberduck
 * Install AWS CLI
 * Install VirtualBox
+* Install Vagrant
 
 # Requirements
 ## Platform
@@ -165,6 +166,10 @@ Ex.
 ## mac::virtualbox
 
 * Install VirtualBox
+
+## mac::vagrant
+
+* Install Vagrant
 
 # Author
 
