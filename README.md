@@ -11,6 +11,7 @@ Currently supported:
 * Install HipChat
 * Install Dropbox
 * Install Dropbox Encore
+* Install Evernote
 * Install Kobito
 * Install bash-completion
 * Install vim
@@ -105,6 +106,10 @@ override_attributes({
 ## mac::dropbox_encore
 
 * Install [Dropbox Encore](http://www.joyofmacs.com/software/dropboxencore/)
+
+## mac::evernote
+
+* Install Evernote
 
 ## mac::kobito
 
