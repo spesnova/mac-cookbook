@@ -47,6 +47,9 @@ default["mac"]["cyberduck"]["download_uri"] = "https://update.cyberduck.io/Cyber
 # Homebrew
 default["mac"]["homebrew"]["formulas"] = []
 
+# VirtualBox
+default["mac"]["virtualbox"]["download_uri"] = "http://download.virtualbox.org/virtualbox/4.3.4/VirtualBox-4.3.4-91027-OSX.dmg"
+
 # rbenv
 default["rbenv"]["create_profiled"] = false
 default["rbenv"]["root_path"] = File.join(ENV["HOME"], ".rbenv")

@@ -21,6 +21,7 @@ Currently supported:
 * Install hub
 * Install cyberduck
 * Install AWS CLI
+* Install VirtualBox
 
 # Requirements
 ## Platform
@@ -160,6 +161,10 @@ Ex.
 ## mac::aws_cli
 
 * Install AWS CLI
+
+## mac::virtualbox
+
+* Install VirtualBox
 
 # Author
 
