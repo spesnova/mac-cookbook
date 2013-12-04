@@ -10,8 +10,6 @@ cookbook "iterm2",
   :git => "https://github.com/jtimberman/iterm2-cookbook.git"
 cookbook "dmg",
   :git => "https://github.com/opscode-cookbooks/dmg.git"
-cookbook "homebrew",
-  :git => "https://github.com/opscode-cookbooks/homebrew.git"
 cookbook "ruby_build",
   :git => "https://github.com/fnichol/chef-ruby_build.git"
 cookbook "rbenv",
