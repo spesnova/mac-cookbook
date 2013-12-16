@@ -13,6 +13,7 @@ Currently supported:
 * Install Dropbox Encore
 * Install Evernote
 * Install Kobito
+* Install pgAdmin
 * Install bash-completion
 * Install vim
 * Install git
@@ -114,6 +115,10 @@ override_attributes({
 ## mac::kobito
 
 * Install Kobito
+
+## mac::pg_admin
+
+* Install pgAdmin
 
 ## mac::1password
 

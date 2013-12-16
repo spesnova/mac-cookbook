@@ -57,6 +57,11 @@ default["mac"]["vagrant"]["download_uri"] = "http://hc-vagrant-files.s3.amazonaw
 # Evernote
 default["mac"]["evernote"]["download_uri"] = "http://evernote.com/download/get.php?file=EvernoteMac"
 
+# pgAdmin
+default["mac"]["pg_admin"]["dmg_package"]  = "pgadmin3"
+default["mac"]["pg_admin"]["version"]  = "1.18.1"
+default["mac"]["pg_admin"]["download_uri"] = "http://ftp.postgresql.org/pub/pgadmin3/release/v#{node['mac']['pg_admin']['version']}/osx/#{node['mac']['pg_admin']['dmg_package']}-#{node['mac']['pg_admin']['version']}.dmg"
+
 # rbenv
 default["rbenv"]["create_profiled"] = false
 default["rbenv"]["root_path"] = File.join(ENV["HOME"], ".rbenv")
